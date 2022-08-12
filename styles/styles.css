@@ -69,3 +69,37 @@ body {
 }
 
 /* Конец стилизации шапки сайта */
+
+/* Начало стилизации слайдера */
+
+.slider-slogan {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.slider-product-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    line-height: 21px;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.slider-product-characteristic {
+    font-size: 16px;
+}
+
+.slider-product-value {
+    font-size: 36px;
+    line-height: 30px;
+    color: #000000;
+}
+
+/* Конец стилизации слайдера */
