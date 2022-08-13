@@ -31,7 +31,18 @@ body {
     background-color: #FFFFFF;
 }
 
-/* Начало стилизации шапки сайта */
+.button {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+/* Стилизация шапки сайта */
 
 .page-header {
     color: #000000;
@@ -40,6 +51,7 @@ body {
 
 .search-button {
     font-family: "Rubik", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #000000;
@@ -68,9 +80,7 @@ body {
     letter-spacing: normal;
 }
 
-/* Конец стилизации шапки сайта */
-
-/* Начало стилизации слайдера */
+/* Стилизация слайдера */
 
 .slider-slogan {
     font-family: "Raleway", sans-serif;
@@ -81,15 +91,8 @@ body {
 }
 
 .slider-product-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    line-height: 21px;
-    color: #000000;
     background-color: #FFFFFF;
-    text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
 }
 
 .slider-product-characteristic {
@@ -102,4 +105,31 @@ body {
     color: #000000;
 }
 
-/* Конец стилизации слайдера */
+/* Стилизация блока категорий товаров */
+
+.categories-item {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    letter-spacing: -0.02em;
+}
+
+/* Стилизация блока преимуществ */
+
+.advantages {
+    background-color: #F0F0F0;
+}
+
+.advantages-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.advantages-button {
+    background-color: #F0F0F0;
+}
