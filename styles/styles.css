@@ -181,3 +181,22 @@ body {
 .contacts-link {
     letter-spacing: 0.2em;
 }
+
+/* Стилизация блока подписки на рассылку */
+
+.subscribe {
+    background-color: #F0F0F0;
+}
+
+.subscribe-email-field {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #444444;
+    background-color: #F0F0F0;
+}
+
+.subscribe-button {
+    background-color: #F0F0F0;
+    letter-spacing: 0.2em;
+}
