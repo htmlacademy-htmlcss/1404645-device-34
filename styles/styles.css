@@ -39,6 +39,15 @@ body {
     color: #000000;
     text-transform: uppercase;
     text-align: center;
+    text-decoration: none;
+}
+
+.title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: #000000;
 }
 
 /* Стилизация шапки сайта */
@@ -122,14 +131,6 @@ body {
     background-color: #F0F0F0;
 }
 
-.advantages-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 50px;
-    color: #000000;
-}
-
 .advantages-button {
     background-color: #F0F0F0;
 	letter-spacing: 0.2em;
@@ -146,4 +147,37 @@ body {
     line-height: 23px;
     letter-spacing: 0.2em;
     background-color: #F0F0F0;
+}
+
+/* Стилизация блока "О нас" */
+
+.delivery-company-item {
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: -0.02em;
+}
+
+.about-us-link {
+    background-color: #FFFFFF;
+    letter-spacing: 0.2em;
+}
+
+/* Стилизация блока контакты */
+
+.contacts-title {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.contacts-address-place {
+    font-style: normal;
+}
+
+.contacts-address-phone {
+    color: #444444;
+    font-style: normal;
+}
+
+.contacts-link {
+    letter-spacing: 0.2em;
 }
