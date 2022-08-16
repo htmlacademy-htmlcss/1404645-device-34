@@ -215,6 +215,47 @@ body {
     text-decoration: none;
 }
 
+/* Стилизация блока с фильтрами товаров */
+
+.catalog-filter {
+    background-color: #F0F0F0;
+}
+
+.catalog-filter-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.catalog-filter-group-title {
+    font-weight: 700;
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: -0.02em;
+}
+
+.control {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.catalog-products-button {
+    background-color: #F0F0F0;
+}
+
+.select-control {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    background-color: #F0F0F0;
+}
+
 /* Стилизация футера сайта */
 
 .page-footer {

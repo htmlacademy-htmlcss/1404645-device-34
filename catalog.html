@@ -35,7 +35,7 @@
                 </ul>
                 <ul class="navigation-list navigation-shop">
                     <li class="navigation-item">
-                        <a class="navigation-link button" href="#">Каталог товаров +</a>
+                        <a class="navigation-link button" href="#">Каталог товаров</a>
                         <ul class="navigation-list navigation-catalog-list">
                             <li class="navigation-item navigation-catalog-item">
                                 <a class="navigation-link" href="#">Виртуальная реальность</a>
@@ -90,8 +90,9 @@
                 <h2 class="visually-hidden">Список товаров с фильтрами</h2>
 
                 <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+                    <h3 class="catalog-filter-title">фильтр:</h3>
                     <fieldset class="catalog-filter-group">
-                        <legend class="catalog-filter-title">Цвет</legend>
+                        <legend class="catalog-filter-group-title">Цвет</legend>
                         <ul class="catalog-filter-list">
                             <li class="catalog-filter-item">
                                 <label class="control">
@@ -127,7 +128,7 @@
                     </fieldset>
 
                     <fieldset class="catalog-filter-group">
-                        <legend class="catalog-filter-title">Bluetooth</legend>
+                        <legend class="catalog-filter-group-title">Bluetooth</legend>
                         <ul class="catalog-filter-list">
                             <li class="catalog-filter-item">
                                 <label class="control">
@@ -146,17 +147,17 @@
 
                     <button class="catalog-products-button button" type="submit">Показать</button>
 
-                    <p>сортировка:</p>
+                    <h3 class="catalog-products-title">сортировка:</h3>
                     <select class="select-control" name="sorting">
                         <option value="popular">Популярные</option>
                         <option value="cheap">Дешевые</option>
                         <option value="expensive">Дорогие</option>
                     </select>
 
-                    <a class="button" href="#">
+                    <a class="select-control-button" href="#">
                         <span class="visually-hidden">По возрастанию</span>
                     </a>
-                    <a class="button" href="#">
+                    <a class="select-control-button" href="#">
                         <span class="visually-hidden">По убыванию</span>
                     </a>
                 </form>
