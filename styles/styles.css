@@ -58,6 +58,14 @@ body {
     background-color: #FFE17F;
 }
 
+.search-field {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    background-color: #FFE17F;
+}
+
 .search-button {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
