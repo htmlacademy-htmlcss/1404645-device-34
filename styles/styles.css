@@ -97,6 +97,8 @@ body {
     letter-spacing: normal;
 }
 
+/* Стилизация главной страницы сайта */
+
 /* Стилизация слайдера */
 
 .slider-slogan {
@@ -199,6 +201,18 @@ body {
 
 .subscribe-button {
     background-color: #F0F0F0;
+}
+
+/* Стилизация страницы каталога */
+
+/* Стилизация хлебных крошек */
+
+.breadcrumbs-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    background-color: #F0F0F0;
+    text-decoration: none;
 }
 
 /* Стилизация футера сайта */
