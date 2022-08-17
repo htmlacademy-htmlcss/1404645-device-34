@@ -256,6 +256,27 @@ body {
     background-color: #F0F0F0;
 }
 
+/* Стилизация карточки товара */
+
+.product-card-link {
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+.product-card-title {
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: -0.02em;
+}
+
+.product-card-price {
+    font-size: 18px;
+    line-height: 21px;
+    color: #444444;
+    text-align: right;
+}
+
 /* Стилизация футера сайта */
 
 .page-footer {
