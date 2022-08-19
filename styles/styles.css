@@ -62,8 +62,17 @@ body {
 /* Стилизация хедера сайта */
 
 .page-header {
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    margin: 0 auto;
     color: #000000;
     background-color: #FFE17F;
+}
+
+.header-wrapper {
+    width: 1040px;
+    margin: 0 auto;
 }
 
 .search-field {
@@ -82,6 +91,15 @@ body {
     color: #000000;
     background-color: #FFE17F;
     letter-spacing: normal;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-user {
+    display: flex;
 }
 
 .navigation-link {
