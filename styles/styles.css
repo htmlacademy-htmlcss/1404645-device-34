@@ -62,8 +62,6 @@ body {
 /* Стилизация хедера сайта */
 
 .page-header {
-    display: flex;
-    flex-direction: column;
     width: 1160px;
     margin: 0 auto;
     color: #000000;
@@ -71,6 +69,8 @@ body {
 }
 
 .header-wrapper {
+    display: flex;
+    flex-direction: column;
     width: 1040px;
     margin: 0 auto;
 }
@@ -93,13 +93,9 @@ body {
     letter-spacing: normal;
 }
 
-.navigation {
-    display: flex;
-    flex-direction: column;
-}
-
-.navigation-user {
-    display: flex;
+.navigation-list {
+    margin: 0;
+    padding: 0;
 }
 
 .navigation-link {
