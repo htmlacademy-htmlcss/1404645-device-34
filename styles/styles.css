@@ -127,6 +127,25 @@ body {
 
 /* Стилизация слайдера */
 
+.slider-products {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.slider-products-list {
+    margin: 0;
+    padding-right: 50px;
+}
+
+.slider-wrapper {
+    width: 560px;
+}
+
+.slider-products-item {
+    display: flex;
+    justify-content: space-between;
+}
+
 .slider-slogan {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
