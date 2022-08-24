@@ -219,7 +219,10 @@ body {
 /* Стилизация блока доставки редких товаров */
 
 .delivery-to-order {
+    width: 1160px;
+    margin: 0 auto;
     background-color: #F0F0F0;
+    text-align: center;
 }
 
 .delivery-to-order-button {
@@ -228,7 +231,18 @@ body {
     background-color: #F0F0F0;
 }
 
+.section-wrapper {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Стилизация блока "О нас" */
+
+.about-us {
+    width: 520px;
+}
 
 .delivery-company-item {
     line-height: 20px;
@@ -242,7 +256,11 @@ body {
 
 /* Стилизация блока контакты */
 
-.contacts-title {
+.contacts {
+    width: 532px;
+}
+
+.contacts-title-sub {
     font-size: 24px;
     line-height: 30px;
 }
