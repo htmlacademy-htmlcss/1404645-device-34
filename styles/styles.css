@@ -207,11 +207,6 @@ body {
     padding: 0;
 }
 
-.advantages-item {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
 .advantages-button {
     background-color: #F0F0F0;
 }
@@ -250,6 +245,10 @@ body {
     letter-spacing: -0.02em;
 }
 
+.delivery-company-list {
+    padding-left: 20px;
+}
+
 .about-us-link {
     background-color: #FFFFFF;
 }
@@ -277,7 +276,13 @@ body {
 /* Стилизация блока подписки на рассылку */
 
 .subscribe {
+    width: 1440px;
     background-color: #F0F0F0;
+}
+
+.subscribe-wrapper {
+    width: 1160px;
+    margin: 0 auto;
 }
 
 .subscribe-email-field {
@@ -391,8 +396,29 @@ body {
 /* Стилизация футера сайта */
 
 .page-footer {
+    width: 1440px;
     color: #FFFFFF;
     background-color: #444444;
+}
+
+.page-footer-container {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.page-footer-wrapper-one {
+    width: 240px;
+    margin-right: 118px;
+}
+
+.page-footer-wrapper-two {
+    width: 450px;
+}
+
+.page-footer-wrapper-three {
+    max-width: 180px;
+    margin-left: auto;
 }
 
 .footer-contacts-address {
@@ -400,12 +426,24 @@ body {
     line-height: 20px;
 }
 
+.footer-navigation-list {
+    margin: 0;
+    padding: 0;
+}
+
 .footer-navigation-link {
     color: #FFFFFF;
+    background-color: #444444;
+}
+
+.footer-social-list {
+    margin: 0;
+    padding: 0;
 }
 
 .footer-phone-number {
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+    background-color: #444444;
 }
