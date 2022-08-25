@@ -22,7 +22,15 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -54,8 +62,17 @@ body {
 /* Стилизация хедера сайта */
 
 .page-header {
+    width: 1160px;
+    margin: 0 auto;
     color: #000000;
     background-color: #FFE17F;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1040px;
+    margin: 0 auto;
 }
 
 .search-field {
@@ -74,6 +91,11 @@ body {
     color: #000000;
     background-color: #FFE17F;
     letter-spacing: normal;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
 }
 
 .navigation-link {
@@ -99,7 +121,30 @@ body {
 
 /* Стилизация главной страницы сайта */
 
+.main-container {
+    flex-grow: 1;
+}
+
 /* Стилизация слайдера */
+
+.slider-products {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.slider-products-list {
+    margin: 0;
+    padding: 0;
+}
+
+.slider-wrapper {
+    width: 560px;
+}
+
+.slider-products-item {
+    display: flex;
+    justify-content: space-between;
+}
 
 .slider-slogan {
     font-family: "Raleway", sans-serif;
@@ -126,6 +171,16 @@ body {
 
 /* Стилизация блока категорий товаров */
 
+.categories {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.categories-list {
+    margin: 0;
+    padding: 0;
+}
+
 .categories-item {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -138,7 +193,18 @@ body {
 /* Стилизация блока преимуществ */
 
 .advantages {
+    width: 1440px;
     background-color: #F0F0F0;
+}
+
+.advantages-wrapper {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.advantages-list {
+    margin: 0;
+    padding: 0;
 }
 
 .advantages-button {
@@ -148,7 +214,10 @@ body {
 /* Стилизация блока доставки редких товаров */
 
 .delivery-to-order {
+    width: 1160px;
+    margin: 0 auto;
     background-color: #F0F0F0;
+    text-align: center;
 }
 
 .delivery-to-order-button {
@@ -157,12 +226,27 @@ body {
     background-color: #F0F0F0;
 }
 
+.section-wrapper {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Стилизация блока "О нас" */
+
+.about-us {
+    width: 520px;
+}
 
 .delivery-company-item {
     line-height: 20px;
     color: #000000;
     letter-spacing: -0.02em;
+}
+
+.delivery-company-list {
+    padding-left: 20px;
 }
 
 .about-us-link {
@@ -171,7 +255,11 @@ body {
 
 /* Стилизация блока контакты */
 
-.contacts-title {
+.contacts {
+    width: 532px;
+}
+
+.contacts-title-sub {
     font-size: 24px;
     line-height: 30px;
 }
@@ -188,7 +276,13 @@ body {
 /* Стилизация блока подписки на рассылку */
 
 .subscribe {
+    width: 1440px;
     background-color: #F0F0F0;
+}
+
+.subscribe-wrapper {
+    width: 1160px;
+    margin: 0 auto;
 }
 
 .subscribe-email-field {
@@ -302,8 +396,29 @@ body {
 /* Стилизация футера сайта */
 
 .page-footer {
+    width: 1440px;
     color: #FFFFFF;
     background-color: #444444;
+}
+
+.page-footer-container {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.page-footer-wrapper-one {
+    width: 240px;
+    margin-right: 118px;
+}
+
+.page-footer-wrapper-two {
+    width: 450px;
+}
+
+.page-footer-wrapper-three {
+    max-width: 180px;
+    margin-left: auto;
 }
 
 .footer-contacts-address {
@@ -311,12 +426,24 @@ body {
     line-height: 20px;
 }
 
+.footer-navigation-list {
+    margin: 0;
+    padding: 0;
+}
+
 .footer-navigation-link {
     color: #FFFFFF;
+    background-color: #444444;
+}
+
+.footer-social-list {
+    margin: 0;
+    padding: 0;
 }
 
 .footer-phone-number {
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+    background-color: #444444;
 }
